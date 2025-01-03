@@ -11,7 +11,7 @@ function minMax(arr) {
 		}
 	return[min,max]
 }
-*******************************************
+// *******************************************
 
 function sumOfCubes(nums) {
 	let sum=0
@@ -22,7 +22,7 @@ function sumOfCubes(nums) {
 	return sum;
 }
 
-******************************************
+// ******************************************
 function filterArray(arr) {
 	let tab=[];
 	for (i=0; i < arr.length; i++)
@@ -36,7 +36,7 @@ function filterArray(arr) {
 }
 
 
-*******************************
+// *******************************
 function isSymmetrical(num) {
 let num_str=num.toString();
 let n=num_str.length
@@ -49,7 +49,7 @@ let afficher = true
 return afficher;
 }
 
-*****************************************
+// *****************************************
 function isSpecialArray(arr) {
 	let i;
 	n=arr.length;
@@ -62,7 +62,7 @@ function isSpecialArray(arr) {
 	return  true;
 }
 
-****************************************
+// ****************************************
 function countTrue(arr) {
 	let cpt=0;
 	let n=arr.length
@@ -75,7 +75,7 @@ function countTrue(arr) {
 	}
 	return cpt;
 }
-*******************************************
+// *******************************************
 function objectToArray(obj) {
 let tab=[];
 	 for(let key in obj)
@@ -86,7 +86,7 @@ let tab=[];
 	 return tab
 }
 
-*******************************************
+// *******************************************
 
 function arrayOfMultiples (num, length) {
 	let tab=[];
@@ -98,7 +98,7 @@ function arrayOfMultiples (num, length) {
 	return tab;
 }
 
-*******************************************
+// *******************************************
 function marathonDistance(d) {
 	let sum=0;
 	for(i=0 ; i<d.length ; i++)
@@ -112,7 +112,7 @@ function marathonDistance(d) {
       	 
 	return true;
 }
-******************************************
+// ******************************************
 
 function squareDigits(n) {
 let tab=[];
@@ -126,4 +126,4 @@ let nbr;
  }
   return Number(nbr);
 }
-*******************************************
+// *******************************************
